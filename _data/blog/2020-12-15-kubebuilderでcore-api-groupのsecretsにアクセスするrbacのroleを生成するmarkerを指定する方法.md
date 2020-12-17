@@ -3,6 +3,7 @@ template: BlogPost
 path: /kubernetes/rbac
 date: 2020-12-15T08:44:58.971Z
 title: KubebuilderでCore API GroupのSecretsにアクセスするRBACのRoleを生成するMarkerを指定する方法
+thumbnail: ''
 ---
 ```go
 // +kubebuilder:rbac:groups=core,resources=secrets,verbs=get;list;watch

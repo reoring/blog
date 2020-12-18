@@ -9,4 +9,4 @@ thumbnail: /assets/Manjaro_logo_text.png
 sudo pacman -Syu fcitx fcitx-configtool fcitx-skk skk-jisyo
 ```
 
-この状態で、fcitx-configtoolからSKKを指定すれば使えようになる
+この状態で、fcitx-configtoolからSKKを指定すれば使えようになる。

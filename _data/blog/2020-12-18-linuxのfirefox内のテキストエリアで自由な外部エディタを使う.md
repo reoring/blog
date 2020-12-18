@@ -6,4 +6,22 @@ title: LinuxのFirefox内のテキストエリアで自由な外部エディタ�
 ---
 ## Textern Add-onのインストール
 
-まずはFirefoxに[jlebon/textern: A Firefox add-on for editing text in your favourite external editor!](https://github.com/jlebon/textern)というAdd-onを入れます。
+まずはFirefoxに [Textern – Get this Extension for 🦊 Firefox (en-US)](https://addons.mozilla.org/en-US/firefox/addon/textern/) というAdd-onを入れます。
+
+## Textern Nativeのインストール
+
+[jlebon/textern: A Firefox add-on for editing text in your favourite external editor!](https://github.com/jlebon/textern)
+
+```
+git clone --recurse-submodules https://github.com/jlebon/textern
+cd textern
+sudo make native-install
+```
+
+## addonの設定
+
+デフォルトではgeditが起動するようになっています。これをgvimに変更するには下記の設定をtextern addonの設定に入れます。
+
+```
+["gvim", "-f", "+call cursor(%l,%c)"]
+```

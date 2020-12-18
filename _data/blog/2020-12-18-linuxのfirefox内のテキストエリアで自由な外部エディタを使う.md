@@ -25,3 +25,7 @@ sudo make native-install
 ```
 ["gvim", "-f", "+call cursor(%l,%c)"]
 ```
+
+## あとがき
+
+これ書いてからおもったけど、[glacambre/firenvim: Embed Neovim in your browser.](https://github.com/glacambre/firenvim) のほうがいいかも…。

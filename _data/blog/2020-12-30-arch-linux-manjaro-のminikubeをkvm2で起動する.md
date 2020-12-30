@@ -51,3 +51,9 @@ minikube config set memory "$(($(free --mega | head -n2 | tail -n1 | cut -c15-27
 minikube start
 kubectl cluster-info
 ```
+
+## Kubernetesのdashboardを開く
+
+```
+minikube dashboard
+```
